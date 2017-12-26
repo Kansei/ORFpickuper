@@ -1,0 +1,3 @@
+#dbやdata,resultはgitで管理しない
+data/
+blast/
