@@ -16,14 +16,26 @@ def dot_plot(l, score_cut):
             query_to = int(json_dict['BlastOutput2']['report']['results']['search']['hits'][num]['hsps'][i]['query_to'])
             hit_from = int(json_dict['BlastOutput2']['report']['results']['search']['hits'][num]['hsps'][i]['hit_from'])
             hit_to = int(json_dict['BlastOutput2']['report']['results']['search']['hits'][num]['hsps'][i]['hit_to'])
-            print("===============")
-            print(score)
-            print(query_to)
-            print(query_from)
-            print(hit_to)
-            print(hit_from)
+            # print("===============")
+            # print(score)
+            # print(query_to)
+            # print(query_from)
+            # print(hit_to)
+            # print(hit_from)
+            if i == 0:
+                hit_min = hit_from
+                hit_max = hit_to
+
+            if hit_min > hit_from:
+                hit_min = hit_from
+            if hit_max < hit_to:
+                hit_max = hit_to
+
             pyplot.plot([query_from, query_to],[hit_from, hit_to], color="royalblue")
 
+
+    hit_range = hit_max - hit_min
+    print("hit min:%d  hit max:%d   range:%d\n"%(hit_min,hit_max,hit_range))
     pyplot.show()
 
 def score_rank_plot(l, score_cut):
@@ -38,39 +50,40 @@ def score_rank_plot(l, score_cut):
 
     pyplot.show()
 
+if __name__ == '__main__':
 
-argvs = sys.argv  # コマンドライン引数を格納したリストの取得
-argc = len(argvs) # 引数の個数
+    argvs = sys.argv  # コマンドライン引数を格納したリストの取得
+    argc = len(argvs) # 引数の個数
 
-if (argc < 4):   # 引数が足りない場合は、その旨を表示
-    print('Usage: # python %s input-file dot/score num (score)'% argvs[0])
-    quit()         # プログラムの終了
+    if (argc < 4):   # 引数が足りない場合は、その旨を表示
+        print('Usage: # python %s input.json dot/score num(int) (score(int))'% argvs[0])
+        quit()         # プログラムの終了
 
-f = open(argvs[1], 'r')
-json_dict = json.load(f)
+    f = open(argvs[1], 'r')
+    json_dict = json.load(f)
 
-plot_type = argvs[2]
+    plot_type = argvs[2]
 
-num = int(argvs[3])-1
+    num = int(argvs[3])-1
 
-score_cut = 0
-if len(argvs) == 5:
-    score_cut = int(argvs[4])
+    score_cut = 0
+    if len(argvs) == 5:
+        score_cut = int(argvs[4])
 
-#グラフタイトル
-hit_cs = json_dict['BlastOutput2']['report']['results']['search']['hits'][num]['description'][0]['title']
-arr = argvs[1].split("/")
-title = arr[len(arr)-1].replace(".json"," ")+"Genome Graph\n"+hit_cs+"\n"
-pyplot.title(title)
+    #グラフタイトル
+    hit_cs = json_dict['BlastOutput2']['report']['results']['search']['hits'][num]['description'][0]['title']
+    arr = argvs[1].split("/")
+    title = arr[len(arr)-1].replace(".json"," ")+"Genome Graph\n"+hit_cs+"\n"
+    pyplot.title(title)
 
-l = len(json_dict['BlastOutput2']['report']['results']['search']['hits'][num]['hsps'])
+    l = len(json_dict['BlastOutput2']['report']['results']['search']['hits'][num]['hsps'])
 
-if 'dot' == plot_type:
-    dot_plot(l, score_cut)
-elif 'score' == plot_type:
-    score_rank_plot(l, score_cut)
-else:
-    print("Only dot or score")
-    quit()
+    if 'dot' == plot_type:
+        dot_plot(l, score_cut)
+    elif 'score' == plot_type:
+        score_rank_plot(l, score_cut)
+    else:
+        print("Only dot or score")
+        quit()
 
-f.close
+    f.close
