@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # fastaファイルを読み込み、指定された塩基数から塩基数までの塩基配列を取り出し、新たなfastaファイルを作る。
 
 import sys
@@ -6,7 +8,7 @@ argvs = sys.argv
 argc = len(argvs)
 
 if (argc != 4):
-    print('Usage: # python %s input.fa from(int) to(int)'% argvs[0])
+    print('Usage: # extractFastaFile.py input.fa from(int) to(int)')
     quit()
 
 fi = open(argvs[1],'r')

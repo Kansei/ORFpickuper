@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import sys
 import json
 import math
@@ -56,7 +58,7 @@ if __name__ == '__main__':
     argc = len(argvs) # 引数の個数
 
     if (argc < 4):   # 引数が足りない場合は、その旨を表示
-        print('Usage: # python %s input.json dot/score num(int) (score(int))'% argvs[0])
+        print('Usage: # plotBlastn.py input.json dot/score num(int) (score(int))')
         quit()         # プログラムの終了
 
     f = open(argvs[1], 'r')
