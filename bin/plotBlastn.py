@@ -27,17 +27,25 @@ def dot_plot(l, score_cut):
             if i == 0:
                 hit_min = hit_from
                 hit_max = hit_to
+                query_min = query_from
+                query_max = query_to
 
             if hit_min > hit_from:
                 hit_min = hit_from
             if hit_max < hit_to:
                 hit_max = hit_to
+            if query_min > query_from:
+                query_min = query_from
+            if query_max < query_to:
+                query_max = query_to
 
             pyplot.plot([query_from, query_to],[hit_from, hit_to], color="royalblue")
 
 
     hit_range = hit_max - hit_min
-    print("hit min:%d  hit max:%d   range:%d\n"%(hit_min,hit_max,hit_range))
+    print(json_dict['BlastOutput2']['report']['results']['search']['hits'][num]['description'][0]['title'])
+    print("query min:%d  query max:%d"%(query_min,query_max))
+    print("hit min:%d    hit max:%d    range:%d"%(hit_min,hit_max,hit_range))
     pyplot.show()
 
 def score_rank_plot(l, score_cut):
