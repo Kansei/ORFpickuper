@@ -31,6 +31,8 @@ if __name__ == '__main__':
     title = arr[len(arr)-1].replace(".json"," ")+"Genome Graph\n"+hit_cs+"\n"
     pyplot.title(title)
 
+    print(hit_cs)
+
     l = len(json_dict['BlastOutput2']['report']['results']['search']['hits'][num]['hsps'])
 
     plot = Plot(l,score_cut,json_dict,num)

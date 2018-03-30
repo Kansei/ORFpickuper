@@ -36,7 +36,7 @@ num = to__num - from_num
 
 extract = lines[from_num:to__num]
 
-extract_list = [extract[i: i+60] for i in range(0, len(extract), 60)]
+# extract_list = [extract[i: i+60] for i in range(0, len(extract), 60)]
 
 for x in extract_list:
     fo.write( x + "\n")

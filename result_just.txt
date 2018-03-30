@@ -1,0 +1,350 @@
+CLUSTAL format alignment by MAFFT FFT-NS-i (v7.313)
+
+
+7               taagacataaatttgccttttcccaaattacttggtacatagtacttttcatgtttgaag
+6               ------------------------------------------------------------
+                                                                            
+
+7               ttgagatgtgggtacaataccatagctttattccagagcagggtatttgtttccaaatgc
+6               ------------------------------------------------------------
+                                                                            
+
+7               catgttcccagcagctgcccttgactgggaattggggtgtgatttgggcttttccttaaa
+6               ------------------------------------------------------------
+                                                                            
+
+7               tccttgaggagctggaggggtgggtggctcgcactcctgctttctggatctgaatcctga
+6               ------------------------------------------------------------
+                                                                            
+
+7               ctctgtcatggacctgtttgactttgggcaagttgactcctattcctgagccccatat-t
+6               ----------accttttgtgactttggaaaagttggctcatctttctgagcctcatttgt
+                          . *.* * *********. ******.*** * **.*******.*** * *
+
+7               tttctcttctgtgaaattcagattaaaaa-aacatggctttgatcaaacattataaataa
+6               tttctcttctgtaaaattcagattaaaaagagcgtacctttaagcaagcactataaataa
+                ************.**************** *.*.*. ****.* ***.**.*********
+
+7               tatatagacagactgcttgtttttattgtattgccag-aaatgaatcctactaatattgc
+6               tatataaacagactgctcgttttttccgtactgtcagcgggtgagttatactaatattac
+                ******.**********.****** ..***.**.*** ...***.*. **********.*
+
+7               catctatggacagaaaatgtattacctgtcttcatcaagacccagacgaggaagaacacg
+6               caccgatggaggacagctatgttacctgttcccaccaatacccagatgaggaagaacaga
+                **.* ***** .. *. *.*.********...**.*** *******.*********** .
+
+7               aaaagcggagattaattttactgccatctccagaaccgtcatcctaatatttacttacat
+6               aaaaggagaagttagcttttctgccatctccataatcttcatcctaatatttatgaatgt
+                ***** .**..***..*** ************ **.* ***************.  *..*
+
+7               -tttattattatttcaggctcatgcacatatacttagcatggatcattggccacagactc
+6               atttatta----ttcaagctcata-gcacaccctgagcatggatcactggctacaggctt
+                 *******    ****.******. .**.*. ** ***********.****.****.**.
+
+7               gcatacatttaactttattaccttt-tgcctcatgtatctcattaaaattttgctgctta
+6               gcatacatttaactttattatctttctgcctcatgcatctcattagg--cctgtttctta
+                ********************.**** *********.*********..  ..**.* ****
+
+7               atcaaggatctgcatattattttaattttagaattcacagttccaagactttgaaagttt
+6               atcaagaatctgcaca--atgttaattttaaaacttggggctccatgact---ggaaatc
+                ******.*******.*  ** *********.**.*.. .*.**** ****   ..*. *.
+
+7               caagcgttctgggtgaatgtgttatgctctctcccgccaccatgtctttataccccctga
+6               ccagcgctctaagtaaacgtgctgtgctgtctcctacctccacacctttgcacttctggg
+                * ****.***..**.**.***.*.**** *****..** ***...****..**..*. *.
+
+7               tttctcagccactatggcaaccactttctactcttagtagcccatatttagtccaatccc
+6               ctcttggtcactcgtggtaactctgctctactct------cccaacctggactcggtctt
+                .*..* . *  ...***.***. . .********      ****  .* ....*..**..
+
+7               cagc-----tcaggagacacttcttccagggagccccctgtgccttccagtagtatcttg
+6               taacaacagccaaggcaaaccccttctgga--------------cttctgtgatatctta
+                .*.*     .**.*. * **..****..*.              .*.* **..******.
+
+7               tacctgccctttttgcaaagctctttcctcctggcttagaatggcccattgacctgtttg
+6               cacttgtcc-ccttgtgaagcgccatcttcctgcattgacatagcctacttgcttgtctg
+                .**.**.** ..***..**** *. **.*****  **.. **.***.*.* .*.***.**
+
+7               tttctcctattaaactgtaagccactcgagggtagagagcatctgttgttcaccattgca
+6               tctctcctgtt--accctgggcctctggagggcaggaagtatcttccctcc---------
+                *.******.**  **. *..*** ** *****.**..**.**** .. *.*         
+
+7               tcctcggtgctgagcactgcgtctgacatattatttagaaggtcagtaagtgctagtggg
+6               tccttggt-----gtactgaatctgac------------aggtggataaatgctgtttgg
+                ****.***     *.**** .******            **** ..***.****. * **
+
+7               attcaggctcccagtgggtgggagagaaaggacgtaaggaagcaagtggtaaaggccctc
+6               attcagattccca----tggggagaggaaggaagttataaatc-agtaatgaagacctca
+                ******..*****      *******.***** ** * .** * ***..*.***.**.. 
+
+7               acaga-gtatcagcaggctggtgtgagggagaaatgcagaggatgggtgagtagcataat
+6               acagacatagcaagaggctgctgctatgagactaatgggaagggggaggcaaccctgggt
+                ***** .** **. ****** **. * *...  *   .**.*. **. * .   *  ..*
+
+7               cgctaatgatagggtaatgatagagcacatttcacaacacctttaagccctttcacgtgc
+6               ccctaatgat---------------------------------------cttctgaatgc
+                * ********                                       ***... .***
+
+7               atcagataatttgatcctcataaaagcctagagatagatatattacagggatgaaggtgg
+6               attagctaatttgatcttcataaaagtttggggatgggtagactacagggaggaaggtag
+                **.** **********.*********..*.*.***.*.** *.******** ******.*
+
+7               agtattttgtggttatgtgatatgtttaaaattatgcagtgagtaaatgactgggttcaa
+6               agtcttgagtggttatgtggcatacctgcagttaggcagcgagtaaatgtctacattcaa
+                *** **  ***********..**...*. *.*** ****.********* **. .*****
+
+7               accagaccttaaaagtctgttatctttccctcg-agcatgcaatgaagtctacatcatcc
+6               cctggaccataagagttggttctctttcccttgaagtacgcaacaaagcccccgtca---
+                 *..**** ***.***. *** *********.* **.*.****..***.*. *.***   
+
+7               ctaccatgtccatttgatcacaccctggcctcacagctctgtggtctacaggatacctca
+6               ccatcaaatccatctgacaagtc----------tgggtccatgatctctaggactcatca
+                *.*.** .*****.***. *  *          ..* **..**.*** .****. * ***
+
+7               tggtggttttattgaccagacaataatcctctttctaaggggatgcatttcattaataca
+6               ctatggttttattggactgtcaata---ctcttcccaggggtacacatttcactaatcta
+                . .***********. * * *****   *****.*.*.*** *..*******.**** .*
+
+7               tatgtagatcatgaattgtctttgactttgaggggatggtagc----cagagcagaaagc
+6               ggt-tccataatgaattgtctttgactttggcaagatagtagcaagttagggaagaaagc
+                 .* *  ** ********************. ..***.*****    .**.* *******
+
+7               aaagctgattttcatccccgtctggtaatgtggttggtaatgtgaagatgggtgtattct
+6               acattt--tatccgtccacatcctatagcaggatggcagcaggaccattggatggattc-
+                * * .*  * *.*.*** *.**. .**... *.* *  .  * .  . ***.** **** 
+
+7               gagataccggctccttgcagtgtgtggttccttctgttttcaggccc---aagaagccca
+6               ---atattgggctcttgaaaagtgtcattcattctgtctgtaggtgcaagaagaagaaga
+                   ***..** ..**** *. **** .*** ******.* .***. *   ******   *
+
+7               tcctgggaaggaaaatgcattggggaaccctgtgcggattcttgtggctttggccctatc
+6               tcccagggaggaaaatgtgctggagacccctgtgtcggttcctgtggctttggtcctatc
+                ***..**.*********...***.** *******. *.***.***********.******
+
+7               ttttctatgtccaagctgtgcccatccaaaaagtccaagatgacaccaaaaccctcatca
+6               tgtcttatgttcaagcagtgcctatccagaaagtccaggatgacaccaaaaccctcatca
+                * *..*****.***** *****.*****.********.**********************
+
+7               agacaattgtcaccaggatcaatgacatttcacacacggtaaggagagtatgcggggaca
+6               agaccattgtcaccaggatcaatgacatttcacacacggtaggagtctcatggggggaca
+                **** ************************************.*..   .*** *******
+
+7               aa---gtagaactgcagccagcccagcactggctcctagtggcactggacccagatagtc
+6               aagatgtaggactagaaccag-----------------------------------agtc
+                **   ****.***. *.****                                   ****
+
+7               caagaaacatttattgaacgcctcctgaatgccaggcacctactggaagctgagaaggat
+6               tgagaaac--------------------atgtcatgcacctcctagaagctgaga--gtt
+                ..******                    ***.** ****** **.**********  * *
+
+7               ttgaaagcacagggctccactctttctggttgtttcttttggcccctctgcctgctgaga
+6               tataagcctcgagtgtacattatttctggtcatggctcttgtcactgctgcctgctgaaa
+                *  **. * *..*  * **.* ********..*  **.*** * *. ***********.*
+
+7               ttccaggggttagtgg--------------------------------------------
+6               -tacagggctgagtggttccatttctaaacccagcatctagactgctcagttgtactgcc
+                 * ***** * *****                                            
+
+7               ------------ttctaattctaaaccactccaagaacatttgattttgctacatgtttc
+6               agtatcgcatgattctaatcctaagccaccttaggga-atttaactttctcttatactcc
+                            *******.****.****...*.*.* ****.*.*** .. .**..*.*
+
+7               catttaaaaatcataggatttgggctgggtgtggtggcttgtacctgtcatcccagcact
+6               cattaagaaaccataaggt----gtcgggcgtggtggcacatgcctttaatcccagaac-
+                **** *.***.****.*.*    *..***.******** ..*.*** * ******* ** 
+
+7               ttgggaggccaaagcaggaggatcattcgagcccaagagttcgagaccagcctgggcagc
+6               tcgggaggcagaggcaggtggatttct---------gagttcaaggccagcctggtctac
+                *.******* .*.***** ****. .*         ******.**.********* * .*
+
+7               atagggagaccccatctctacaaaaataataaaaaatgttagctgggcatggtggtgtgt
+6               aaaatgagttcc------------------------------------------------
+                * *. *** .**                                                
+
+7               acctgtggtcccagctaggggaggctgagatggaaggatcacctgagcctgggaggttga
+6               ----------------------------------agga----------------------
+                                                  ****                      
+
+7               ggctgcagtgggccctgatcatgccaccgtgctccagcctgggtgacagagtgagacctt
+6               ----------------------------------cagccagggctatacagagaaaccct
+                                                  ***** ***. *.* ** **.***.*
+
+7               gtctcaaaataaataaataaataaataaaagtcataggatttgatcaggcatgatgggtc
+6               gtctcga-----------------------------------------------------
+                *****.*                                                     
+
+7               acatctgtaagcccattgctttaggaggccaaggtaggaggatcagttgaggccaggagt
+6               ------------------------------------------------------------
+                                                                            
+
+7               tcaagaccagcctgggcaacatggcaagacctctctctctaatttttaaaaaaataaaaa
+6               ------------------------------------------------------------
+                                                                            
+
+7               ttaaagataagaaaaaaatcataggattc-------tcatgaggcctcacgtgcttattt
+6               --aaaaccaaaaaagaagccataaggttctttgatatcataaggc----catgctcattt
+                  ***. .**.***.**..****.*.***       ****.****    *.****.****
+
+7               tcaacctaccaaggggaaacccaggcctcagcgattagctgag-----------------
+6               tccctctgcc-acaggaaacccagcccttggtggctagctgagcatgtaaggtacacatc
+                **  .**.** * .********** ***..*.*..********                 
+
+7               ----------------------ccacatgcaggcacagccactgtctctttccttcctgt
+6               agacctgggagaacctgggttcctccctgcttccacagac-caccctctccccttcctta
+                                      *. * ***   ***** * *  .****..*******  
+
+7               cccctctgtccccaccttctgcgctcgccttcctccctgacttcacttccttgaatctta
+6               gccccctgtttctgcctctctcattctctttcatccatgaaactacttccttgaat-tta
+                 ***.****..*..***... *..** *.*** *** ***  ..************ ***
+
+7               gtgcctacgaccagagggagctgtgaagttccttgtgtcccattggca-ggaacaagacc
+6               gtaccca-gggcataagaatccctaaaggtcatggtgtcccattgacacgtgaccagctt
+                **.**.* *. ** *.*.* *. *.*** ** * ***********.** * .** ** ..
+
+7               cccagaagcatctcctcagggcctctatcccatctctagatgtgcttgtcattagggttc
+6               cccagcagtgtctctactgggc-------------------aggaggagcagtaggtttc
+                ***** **..****. * ****                   . *   . ** **** ***
+
+7               t-------------tgtagttccagctgatctctggccctgccgctcaaagatacccaaa
+6               taatggtttttagctacagcttctgcccaccgctcaccc-acttttcaaagtcacacaga
+                *             *..**.*.* **. *.* ** .*** .*. .****** .** **.*
+
+7               agagcgagtctaccctttttcacattcaaccctctactgatttgcaaatagcagtcagtg
+6               a-aacaacctttccctcctttacaaccagtcct-tgtgtagctgctgatagtggtcagtg
+                * *.*.* ..* ****..**.*** .**..*** *..  * .*** .****..*******
+
+7               cccaccctggtcttttctctggggtccagcaggcctagaccttcagccattttcctgatg
+6               cccaccat-gttcttcctccgaggcccagca-gcctacatcttcagccatttcctcagat
+                ****** * **..**.***.*.**.****** ***** *.************.*....  
+
+7               aggtctgtatttgaaattaggaagattaagtttgaatcttcacactt--ctgatgtctgt
+6               gtatct----------------aagctatgtgcatatcaccatatctgcttcccatctgc
+                . .***                *...** ** .. *** .**.*..*  .*  ..****.
+
+7               gagatcttcagcaagttccttact-gtctttaagccttgttttcatcatctggataatgg
+6               aagatcttaggccagttctccggtgggttttaaaccttgattttaccatcttgataaggg
+                .******* .** *****.... * * .*****.***** ***.*.***** ***** **
+
+7               ggatatcacacactattcacaaggttgttatgaggcctaaattagctaaagcaattgaat
+6               agacatcatatcata-tcaccaagttgttctaaggcttaaatggggtgtagtgaaaga--
+                .**.****.*.  ** **** *.****** *.****.***** .* *. **..*  **  
+
+7               cctccttaccccctgcatggagctctctggagacttccacgtctcctggtcattgtgggt
+6               ---------ctttcttgtggagccatctggagactactatgtctcctggccagtgtgcgt
+                         *.... ..******. ********** *.*.*********.** **** **
+
+7               gtcttatggta-gtcttgggcagttagggagaagttaggtgtctggaagcaaagatggct
+6               gtctcacagtgtggccttggcagcta-ggagaagtcagatattcagaatcaaggacagct
+                ****.*..**. * *.* *****.** ********.**.*.*...*** ***.**..***
+
+7               cagaactagatagagtcttgggcattttata-gataaaaactcttgtctcctttaaaaat
+6               taatataagaga-------------cttatacggagaaagttctcatcatctttcaaaaa
+                .*. *. *** *             .***** *. .***..***..** .**** **** 
+
+7               aataaaaaaaaattagctgggcatattagccactcagcaagactgcacgtgatagatccc
+6               g------------------------------agtcatcagggctgcacatggagaggccc
+                .                              * *** **.*.******.**. ... ***
+
+7               gagtgccccaccttgggtggtgtaatacacaatatcacgggagccccgggtagtaaccac
+6               aactacccaaatgtgggtg-----------------------------------------
+                .* *.*** * . ******                                         
+
+7               ggaggtgtcagcctcagtgctgtgggcagatggatggggagagcctccc---ggaactgg
+6               ----------------gaaatgagaggaagccagtgggaaaagcccttcctggtaaccag
+                                * . ** *.* *... ..****.*.****...*   * ***..*
+
+7               agtcactggagcagggttggggggcctcactgagggtacggccttgatctctaaggagga
+6               actcagcagagtggggggggggggc------------acggctttga-ccctaatgaggg
+                * *** ..***..***  *******            *****.**** *.**** ****.
+
+7               gggactgcctggaaaagctgactgggagggaggactcggctgggggtagaagggactagg
+6               agaacca-cagaagagtatgactaggagggagagatctgataagggcaggagg--ctaga
+                .*.**.. * *.*.*.  *****.********.. ** * *..***.**.***  ****.
+
+7               gaaggctgggggtgggggtgcttatggaggacctcagatgcctggggaacagactccact
+6               gagaat------------------------------------------------------
+                **....                                                      
+
+7               aaataaaacatatgaaaccatggctggttcttcagcagaggccatgtagagaaaggaatg
+6               --ataaggaataaagagctatggctggttcttca-cggatatcat-tggagaaaggaatt
+                  ****.. *** ..*.*.*************** *.** ..*** *.*********** 
+
+7               acctaggaaagttggcctggaagtggagggaaggatggtgtgggaaaagcaggaa-tctc
+6               actcaaga----ctaatcagaagtgaagggtggagtggctcggaatgaacagaaagtccg
+                **..*.**    . . ...******.**** .*..***. .**.* .*.***.** **. 
+
+7               ggagaccagcttagaggcttggcagtcacctgggtgcaggatacaagggcctgagccaaa
+6               ggagaccagctccgtggctc-ccagtcagctgatgacaggaagtaagggcctggaccagg
+                ***********. * ****.  ****** ***.  .***** ..*********..***..
+
+7               gtggtgagggagggtggaaggaggcagcccagagaatgaccctccatgcccacggggaag
+6               aaggtgagaa-----ggaaggaggtagcccag---------------gttcacagatgta
+                . ******..     *********.*******               *..***.*. . .
+
+7               gcagagggctctgagagcga---ttcctcccacatgct-gagcacttgttctccctcttc
+6               atgaagggctctggagaccgatctccctgccacttgctaaagcacctcttgttcttcttc
+                ....*********....* .   *.*** **** **** .*****.* ** *.*.*****
+
+7               ctcctgcatagcagtcagtctcctccaaacagaaagtcaccggtttggacttcattcctg
+6               ctcctgcatagcagtcggtatccgccaagcagagggtcactggcttggacttcattcctg
+                ****************.** *** ****.****..*****.**.****************
+
+7               ggctccaccccatcctgaccttatccaagatggaccagacactggcagtctaccaacaga
+6               ggcttcaccccattctgagtttgtccaagatggaccagactctggcagtctatcaacagg
+                ****.********.**** .**.***************** ***********.******.
+
+7               tcctcaccagtatgccttccagaaacgtgatccaaatatccaacgacctggagaacctcc
+6               tcctcaccagcctgccttcccaaaatgtgctgcagatagccaatgacctggagaatctcc
+                **********. ******** .***.*** * **.*** ****.***********.****
+
+7               gggatcttcttcacgtgctggccttctctaagagctgccacttgccctgggccagtggcc
+6               gagacctcctccatctgctggccttctccaagagctgctccctgcctcagaccagtggcc
+                *.**.**.**.**. *************.*********. *.****...*.*********
+
+7               tggagaccttggacagcctggggggtgtcctggaagcttcaggctactccacagaggtgg
+6               tgcagaagccagagagcctggatggcgtcctggaagcctcactctactccacagaggtgg
+                ** ***  ...** *******. **.***********.***  *****************
+
+7               tggccctgagcaggctgcaggggtctctgcaggacatgctgtggcagctggacctcagcc
+6               tggctttgagcaggctgcagggctctctgcaggacattcttcaacagttggatgttagcc
+                ****..**************** ************** ** ...***.****. *.****
+
+7               ctgggtgctgaggccttgaaggtcactcttcctgcaaggactacgttaagggaaggaact
+6               ctgaatgctgaagtttcaaaggccaccaggctcccaagaatcatgtagagggaagaaacc
+                ***..******.*..*..****.***.   *.. ****.*..*.** .*******.***.
+
+7               ctggcttccaggtatctccaggattgaagagcattgcatggacaccccttatccaggact
+6               ttggcttccaggggtcttcaggagaagagagccatgtgcacacatccatcattc------
+                .*********** .***.*****  ..*****  **.... ***.** *.**.*      
+
+7               ctgtcaatttccctgactcctctaagccactcttccaaaggcataagaccctaagcctcc
+6               ------atttctctccctcctgtagaccacccatccaaaggcatgactccacaa------
+                      *****.**  ***** **..****.* ***********.*  ** .**      
+
+7               ttttgcttgaaaccaaagatatatacacaggatcctattctcaccaggaagggggtccac
+6               ---tgcttg--actcaagttatccacacaacttcatg-----agcacaaggaggggccag
+                   ******  **. *** *** .*****.  ** *.     * ** .*.*.*** *** 
+
+7               ccagcaaagagtgggctgcatctgggattcccaccaaggtcttcagccatca---acaag
+6               cctgcagag--------------gggactctcacctagttcttcagcaagtagagataag
+                ** ***.**              ****.**.**** ** ******** * .*   *.***
+
+7               agttgtcttgtcccctct-tgacccatct-----------------ccccctcactgaat
+6               agccatcccatcccctccatgtcccacctgctccgggtacatgttcctccgtgggtacac
+                **...**...*******. ** ****.**                 *.** * . *. *.
+
+7               gcctcaatgtgaccaggggtgatttcagagagggcagaggggtaggcagagcctttggat
+6               gcttcgctgcggcccagg--------agaggtgaggtagggatgggtagagcctttggg-
+                **.**. **.*.** .**        ****. *. . ****.*.**.***********. 
+
+7               gaccagaacaaggttccctctgagaattccaaggagttccatgaagaccacatccacaca
+6               ---------------ctgtctcagagtctttgggagcaccgtgaaggctgcatccacaca
+                               *. *** ***.*... .****. **.*****.*..**********
+
+7               cg--caggaactccc-agcaacacaagctggaagcacatgtttatttattctgcatttta
+6               cagctggaaactcccaagcagcacacgatggaagcacttatttatttattctgcattcta
+                *.  ..*.******* ****.**** * ********* *.*****************.**
+
+7               ttctggatggatttg
+6               ttttggatggatctg
+                **.*********.**
