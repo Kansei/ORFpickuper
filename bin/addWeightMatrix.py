@@ -27,18 +27,18 @@ if __name__ == '__main__':
         line = fr.readline()
 
     while line:
-
         #読み込み
         len = myread(fr)
         end = myread(fr)
         intron = myread(fr)
+        prob = myread(fr)
         weight = [0 for i in range(int(len))]
         for i in range(int(len)):
             weight[i] = myread(fr)
         line = fr.readline()
 
         #書き込み
-        fa.write("w%s.append(ConSeqData(%s,%s,\n"%(end,len,intron))
+        fa.write("con%s.append(ConSeqData(%s,%s,%s,\n"%(end,len,intron,prob))
         fa.write("np.array([\n")
         for i in range(int(len)):
             fa.write("[%s],\n"%(weight[i]))
