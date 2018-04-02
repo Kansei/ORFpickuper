@@ -31,21 +31,13 @@ def anno_codon(sequence):
         for j in range(len(seq)):
             site = seq[j].find("GT")
             if seq[j] in start:
-                ano[i][j] = "MMM"
+                ano[i][j] = ">>>"
             elif seq[j] in stop:
-                ano[i][j] = "SSS"
+                ano[i][j] = "<<<"
 
             ano_str[i] = "-"*i+"".join(ano[i])
 
     return ano_str
-
-def anno_splice(sequence):
-    # 大文字の場合は小文字に、小文字の場合は大文字に変更
-    ano = sequence.replace("GT","gt")
-    ano = ano.replace("AG","ag")
-
-    return ano
-
 
 argvs = sys.argv
 argc = len(argvs)
@@ -56,7 +48,6 @@ lines = fi.read().replace("\n","")
 fi.close()
 
 ano_c = anno_codon(lines)
-ano_s = anno_splice(lines)
 # fo = open(argvs[2],'w')
 
 

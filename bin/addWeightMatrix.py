@@ -27,8 +27,8 @@ if __name__ == '__main__':
         line = fr.readline()
 
     while line:
+
         #読み込み
-        name = myread(fr)
         len = myread(fr)
         end = myread(fr)
         intron = myread(fr)
@@ -37,15 +37,13 @@ if __name__ == '__main__':
             weight[i] = myread(fr)
         line = fr.readline()
 
-        print(name)
-        print(weight)
-
         #書き込み
-        fa.write("%s = Weight_matrix(%s,%s)\n"%(name,end,intron))
-        fa.write("%s.weight = np.array([\n"%(name))
+        fa.write("w%s.append(ConSeqData(%s,%s,\n"%(end,len,intron))
+        fa.write("np.array([\n")
         for i in range(int(len)):
             fa.write("[%s],\n"%(weight[i]))
-        fa.write("])\n\n")
+        fa.write("])\n")
+        fa.write("))\n\n")
 
     fr.close
     fa.close

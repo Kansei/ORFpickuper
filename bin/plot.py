@@ -44,3 +44,5 @@ class Plot:
                 pyplot.bar(i,score, color="royalblue")
 
         pyplot.show()
+
+    # def pointWeight(self):
