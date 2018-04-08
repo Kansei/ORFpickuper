@@ -4,9 +4,11 @@ import sys
 import re
 import math
 import numpy as np
+from matplotlib import pyplot
 from weightMatrixList import *
 
-class ATGC:
+
+class Atgc:
     list = ["A","T","G","C"]
 
     dict ={"A":np.array([[1.0,0.0,0.0,0.0]]),
@@ -21,9 +23,9 @@ class ATGC:
             "C":0
             }
 
-atgc = ATGC()
+gAtgc = Atgc()
 
-zero = 10**-8
+g_zero = 10**-8
 
 
 def myConSeq(con):
@@ -33,56 +35,50 @@ def myConSeq(con):
     for x in range(column.shape[0]):
         i = column[x]
         j = row[x]
-        seq[i] = atgc.list[j]
+        seq[i] = gAtgc.list[j]
         con.sequence = "".join(seq)
 
-
 def convertWeight(con):
-    con.weight[con.weight == 0.0] = zero
+    con.weight[con.weight == 0.0] = g_zero
 
 
 def whereConSeq(con,seq):
     l = len(con.sequence)
     temp = 0
-    t_seq = seq
+    tmp_seq = seq
 
     while(1):
-        match = re.search(con.sequence,t_seq)
+        match = re.search(con.sequence,tmp_seq)
         if None == match:
             break
 
-        conSeqStart = match.start()
-        con.c_site.append(conSeqStart + temp)
-        newSeqStart = conSeqStart + l
+        conSeqSite = match.start()
+        con.c_site.append(conSeqSite + temp)
+        newSeqStart = conSeqSite + l
+        tmp_seq = tmp_seq[newSeqStart:]
         temp = newSeqStart + temp
-        t_seq = t_seq[newSeqStart:]
-
 
 def frequency(seq):
-    for key in atgc.freq.keys():
-        atgc.freq[key] = seq.count(key)/len(seq)
-    print(atgc.freq)
+    for key in gAtgc.freq.keys():
+        gAtgc.freq[key] = seq.count(key)/len(seq)
 
 def logLikelihood(con,seq):
-    for i in range(len(con.c_site)):
+    for con_site in con.c_site:
         m = 0.0
-        site = con.c_site[i]
-        p_seq = seq[site:site+con.len]
+        tmp_seq = seq[con_site:con_site + con.len]
 
-        for j in range(len(p_seq)):
-            j_atgc = p_seq[j]
-            f = np.dot(con.weight[j],atgc.dict[j_atgc].T)
-            q = f/con.len
-            p = atgc.freq[j_atgc]
+        for sj in range(len(tmp_seq)):
+            j_atgc = tmp_seq[sj]
+            q = np.dot(con.weight[sj],gAtgc.dict[j_atgc].T)
 
-            m += math.log((q*con.prob)/p)
-            # m += math.log(q/p)
+            # q = f/con.len
+            p = gAtgc.freq[j_atgc]
 
+            # m += math.log((q*con.prob)/p)
+            m += math.log(q/p)
 
         con.score.append(m)
-        con.i_site.append(site + con.intron)
-    print(con.score)
-
+        con.i_site.append(con_site + con.intron)
 
 def findSpliceSite(cons,seq):
     for con in cons:
@@ -92,14 +88,32 @@ def findSpliceSite(cons,seq):
         logLikelihood(con,seq)
 
 
+def pointScore2(cons):
+
+    x = []
+    y = []
+
+    for con in cons:
+        x.extend(con.i_site)
+        y.extend(con.score)
+
+    pyplot.scatter(x, y,label = '%d end'%(cons[0].end))
+
+    pyplot.xlabel('base-pair')
+    pyplot.ylabel('score')
+
+    pyplot.legend()
+    pyplot.show()
+
+
 if __name__ == '__main__':
     argvs = sys.argv
     argc = len(argvs)
 
-    p_name = argvs[0].split("/")[-1]
+    pro_name = argvs[0].split("/")[-1]
 
     if (argc != 2):   # 引数が足りない場合は、その旨を表示
-        print('Usage: %s input.fa'%(p_name))
+        print('Usage: %s input.fa'%(pro_name))
         quit()         # プログラムの終了
 
     fi = open(argvs[1],'r')
@@ -109,4 +123,10 @@ if __name__ == '__main__':
 
     frequency(seq)
     findSpliceSite(con5,seq)
-    # findSpliceSite(con3,seq)
+    findSpliceSite(con3,seq)
+
+    for con in con5:
+        print(con.c_site)
+
+    pointScore2(con5)
+    pointScore2(con3)

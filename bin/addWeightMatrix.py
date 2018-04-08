@@ -38,7 +38,7 @@ if __name__ == '__main__':
         line = fr.readline()
 
         #書き込み
-        fa.write("con%s.append(ConSeqData(%s,%s,%s,\n"%(end,len,intron,prob))
+        fa.write("con%s.append(ConSeqData(%s,%s,%s,%s,\n"%(end,end,len,intron,prob))
         fa.write("np.array([\n")
         for i in range(int(len)):
             fa.write("[%s],\n"%(weight[i]))
