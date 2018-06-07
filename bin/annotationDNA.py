@@ -19,8 +19,8 @@ def anno_codon(sequence):
     # ３つの読み枠のシークエンスを用意
     sequences = [sequence,sequence[1:],sequence[2:]]
 
-    start = ["ATG"]
-    stop = ["TAG","TAA","TAG"]
+    start = ["ATG","GTG"]
+    stop = ["TAG","TAA","TGA"]
     ano = [[],[],[]]
     ano_str =[[],[],[]]
 
@@ -48,7 +48,7 @@ lines = fi.read().replace("\n","")
 fi.close()
 
 ano_c = anno_codon(lines)
-# fo = open(argvs[2],'w')
+fo = open(argvs[2],'w')
 
 
 print(ano_c)
